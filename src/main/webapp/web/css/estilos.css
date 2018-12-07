@@ -1,0 +1,63 @@
+body {	margin: 0;	padding:0; }
+form {	margin:0;	padding:0;}
+a:hover, a:focus {	text-decoration: underline;}
+select, textarea, input { font-family:  Arial, Verdana, sans-serif;}
+
+/* Estructura interior */
+#contenedora{ margin-left: 128px; width: 1000px; }
+html>body #contenedora{ min-height: 586px; height: auto; }
+#cuadro_contenedor{ position:relative; left: 8px; top:0px; width: 900px;}
+
+/* Estilos para la cabecera */
+#cabecera_corpo{ position:relative; left:50px; width: 900px; height: 165px;}
+/*#imagen_logo_corpo{ position:absolute; left: 2px; top:10px; width: 160px; height: 50px;}
+#imagen_titulo_corpo{ position:absolute; left: 200px; top:10px; width: 600px; height: 50px;}*/
+#imagen_logo_titulo_corpo{ position:absolute; left: 160px; top:10px; width: 760px; height: 150px;}
+
+#idioma{ position:absolute; left: 751px; top:35px; width: 78px; height: 25px; a_background-color: #5B678B;}
+.texto_idioma{	position:relative;	left: 23px; top:5px; }
+.texto_idioma ul, .texto_idioma li{	display: inline; padding: 0; margin: 0; line-height: 11px;}
+.texto_idioma ul li a { font-size: 10px; font-family : Verdana;}
+.texto_idioma .link_idioma {	font-size: 10px;	font-family : Verdana; }
+.texto_idioma a:link, texto_idioma a:active, .texto_idioma a:visited {color:#ffffff;}
+
+/*  Contenido Centro */
+#contenido_centro{ margin-top: -231px; margin-left: 151px; padding-bottom: 15px; width: 737px;  background-image : url(/web/img/aa_logo_fondo_diloso.gif); }
+html>body #contenido_centro{ min-height: 436px; }
+
+#cuadro_contenido{position:relative; top:50px; left: 3px; width: 720px;}
+
+.tit_destacado_detalle_gris{ position:relative; left: 16px; top:9px; height: 39px; width: auto; border-bottom-color : #E1E2E4; border-bottom-style : solid; border-bottom-width : 1px; }
+.tit_destacado_detalle_gris img { vertical-align:top;}
+.tit_destacado_detalle_gris h2 { font-size: 18px; font-weight: bold; color : #0F00AF; float: left; Font-family: Arial, Helvetica, sans-serif; vertical-align:bottom; margin:10px 0 0 0; padding:0 10px 0 0; }
+
+.texto_contenido{ Font-family: Arial, Helvetica, sans-serif; Font-size: 15px; Color: #0F00AF;}
+.texto_idioma a:link, texto_idioma a:active, .texto_idioma a:visited {color:#ffffff;}
+
+
+/* Estilos para el menu */
+#menu_izquierda{ position:relative; top: 53px; left: 0px; width: 151px; height: 265px; }
+ul#navegacion, #navegacion ul.segundoNivel { padding:0; margin:0;}
+#navegacion ul.segundoNivel { background-color: #F7F7F7; }
+#navegacion li, #navegacion ul.segundoNivel li { padding:0; margin:0; display: block; list-style-type: none; }
+ul#navegacion .primerNivel { width:151px; line-height: 18px; background: #B4B4B4 url(/web/img/flecha_menuIzqOff.gif) no-repeat 8px 7px; }
+/*ul#navegacion .primerNivel .menu3 { font-size: 11px; color: #fff; padding-left:15px; font-family: verdana, Geneva, Arial, Helvetica, sans-serif; }*/
+ul#navegacion .primerNivel .menu3 { font-size: 11px; color: #fff; padding-left:15px; font-family: arial, Helvetica, sans-serif; }
+ul#navegacion .primerNivel .menu3 .dblock { color: #fff;margin:0;padding:0; padding-left:15px; }
+#navegacion ul.segundoNivel { padding-top: 1px; }
+#navegacion ul.segundoNivel li { padding-left: 15px; border-top: 1px solid #F7F7F7; border-bottom: 1px solid #F7F7F7;/* height: 14px; */line-height: 19px;}
+#navegacion ul.segundoNivel li.marcado { border-top: 1px solid #E1E2E4; border-bottom: 1px solid #E1E2E4; line-height: 14px; background-color: #fff; vertical-align: middel; }
+#navegacion ul.segundoNivel .mayorq { vertical-align: middel; font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #686868; text-decoration: none; }
+#navegacion a { color: #686868; }
+#navegacion a:hover, #navegacion a:focus {	text-decoration: underline;}
+#navegacion ul.segundoNivel span.mayorq { font-family: Arial, Helvetica, sans-serif; font-size: 11px; vertical-align:middel; }
+
+/* Estilos para el pie */
+#pie{ position:relative; left: 267px; top:2px; width: 599px; height: 54px;}
+.pie_logo{ position:relative; left: 85px; top:12px; width: 93px; height: 50px; }
+.pie_copyright{ position:relative; left: 150px; top:-8px; font-size: 11px; font-family: Arial, Helvetica, sans-serif; color : #999999; text-decoration: none; text-align:left; width:430px; height:31px; }
+.pie_copyright ul, .pie_copyright li{	display: inline; padding: 0; margin: 0; line-height: 11px;}
+.pie_copyright ul li { background: url(/web/img/rayita1.gif) no-repeat left; padding: 0 0 0 5px; margin:0 0 0 5px;}
+.pie_copyright .link3, .pie_copyright ul li a {font-size: 10px; font-family: Arial, Helvetica, sans-serif; }
+.pie_copyright a:link, pie_copyright a:active, .pie_copyright a:visited {	color:#3399cc; text-decoration: none;}
+

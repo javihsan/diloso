@@ -1,0 +1,34 @@
+<div class="secondHeader filterSecondHeader col-xs-12 col-sm-9">
+    <span class="itemsNumber"> {{personscope.selectedTasksPersonsChecks.length}} - {{personscope.cabText}}</span>
+</div>
+
+	<article id="taskPerson-form" class="margin-put booking_calendar" >
+		<loading/>
+   		
+	    <div ng-show="!isViewLoading" class="markersList">
+			<div class="markerCategory" ng-cloak ng-repeat='task in combiTasks'>
+				<a ng-href="" ng-click="selectTaskPerson(task.id)">
+					<div>
+	                   	<input id="task_select" name="task_select" ng-checked="personscope.selectedTasksPersonsChecks.indexOf(task.id) > -1" type="checkbox" value="{{task.id}}" ng-click="selectTaskPerson(task.id); $event.stopPropagation();">
+	                    <span>{{task.lotName}}</span>
+	                </div>
+                </a>
+			</div>
+	    </div> 	
+	</article>
+
+	<nav class="footer threeButton  navbar navbar-default navbar-fixed-bottom" style="padding-top:5px;">
+		<div ng-click="cleanTaskPerson()">
+			<a ng-href="" class="councilBtn">
+				<span lnt-id="form.clean">Limpiar</span>
+			</a>
+		</div>
+		<div ng-click="saveTaskPerson()">
+			<a ng-href="" class="councilBtn">
+				<span lnt-id="form.ok">Ok</span>
+				<span>{{personscope.selectedTasksPersonsChecks.length}}</span>
+			</a>
+		</div>
+	</nav>
+
+	

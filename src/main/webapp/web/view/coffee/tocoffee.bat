@@ -1,0 +1,1 @@
+coffee --compile --output C:\work\Diloso\workspaceWeb\Diloso\war\web\view C:\work\Diloso\workspaceWeb\Diloso\war\web\view\coffee
